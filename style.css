@@ -1,0 +1,383 @@
+
+        
+        p{
+            display: inline;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            margin-right: 50px;
+        }
+        .left{
+            margin-left: 30px;
+            margin-right: 50px;
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+            font-size:25px ;
+            color: aliceblue;
+            width: 850px;
+            text-decoration: none;
+        }
+        .std{
+            display: inline-block;
+            color: red;
+        }
+        .right{
+            margin-right: 30px;
+            margin-top: 18px;
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+            color: rgb(255, 255, 255);
+            width: 250px;
+        }
+        .heading{
+            background-color: rgba(194, 200, 206, 0.222);
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+            font-size:15px ;
+            font-weight: 600;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+        body{
+            margin: 0;
+            background : linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,
+                         url(https://img.freepik.com/free-photo/top-view-perfectly-ordered-fitness-items_23-2150321809.jpg?size=626&ext=jpg&ga=GA1.1.44546679.1716681600&semt=ais_user);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position:center;
+            background-attachment: fixed;
+        }
+        .ts{
+            color: aliceblue;
+            margin-right: 50px ;
+            cursor: pointer;
+            text-decoration: none;
+            
+        }
+    
+        .ts:hover{
+            opacity: 0.5;
+        }
+    
+        .h, .a, .c {
+            color: aliceblue;
+            margin-right: 50px ;
+            margin-top: 15px;
+            cursor: pointer;
+            
+        }
+    
+        .h:hover, .a:hover, .c:hover{
+            opacity: 0.5;
+        }
+    
+        .h:active, .a:active, .c:active {
+            color: red;
+        }   
+        .hh, .aa, .cc  {
+            color: aliceblue;
+            margin-right: 50px ;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+        .hh:visited,.aa:visited,.cc:visited{
+            color: red;
+        }
+
+
+        
+
+        .sp{
+            background-color: red;
+            color:aliceblue !important;
+            border: none;
+            border-radius: 3px;
+            width: 100px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            height: 50px;
+            text-decoration: none !important;
+            color: inherit;
+        }
+        .sp:hover{
+            opacity:0.8;
+            text-decoration: none;
+        }
+        .sp:active{
+            background-color: rgb(165, 0, 0);
+            text-decoration: none;
+        }
+        .center{
+            display: grid;
+            grid-template-columns: auto;
+            margin-top: 200px;
+            margin-right: 170px;
+            margin-left: 170px;
+
+        }
+
+        .work{
+            color: white;
+            font-size: 20px;
+            font-weight:700 ;
+            margin-bottom: 30px;
+            margin-left:450px ;
+            
+        }
+        .easy{
+            margin-top: 10px;
+            color: white;
+            font-size: 70px;
+            font-weight:800 ;
+            margin-bottom: 20px;
+            margin-left:200px ;
+        }
+        .gym{
+            color: red;
+        }
+        .mem{
+            margin-top: 10px;
+            color: white;
+            font-size: 20px;
+            font-weight:600 ;
+            margin-bottom: 20px;
+            margin-left:380px ;
+        }
+        .re{
+            background-color: red;
+            color:aliceblue !important;
+            border: none;
+            border-radius: 3px;
+            width: 100px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            height: 50px;
+            text-decoration: none !important;
+            color: inherit;
+            margin-left: 560px;
+            margin-top: 20px;
+        }
+        .re:hover{
+            opacity:0.8;
+            text-decoration: none;
+        }
+        .re:active{
+            background-color: rgb(165, 0, 0);
+            text-decoration: none;
+        }
+        #container{
+            display: flex;
+        }
+        .aboutdiv{
+            float: left;
+        }
+        .aboutpage{
+            color: aliceblue;
+            margin-top: 15px;
+            margin-left: 50px;
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        .line{
+            width: 760px;
+            height: 7px;
+            background-color: red;
+            display: inline-block;
+
+        }
+        .aboutdiv1{
+            float: right;
+        }
+        img{
+            margin-left: 500px;
+        }
+        .ga1{
+            width: 350px;
+            height: 250px;
+            margin-top: 40px;
+            margin-left: 100px;
+            
+        }
+        .ga2{
+            width: 350px;
+            height: 250px;
+            margin-bottom: 100px;
+            margin-left: 350px;
+            margin-right: 300px;
+            
+        }
+        
+        .e{
+            
+            display: grid;
+            grid-template-columns: auto auto ;
+            padding: 10px;
+
+        }
+        .even{
+            display: grid;
+            color:white;
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+
+        }
+        .eve{
+            color: red;
+            font-size: larger;
+            font-weight: bold;
+        }
+        .line2{
+            width: 500px;
+            height: 7px;
+            background-color:black;
+            display: inline-block;
+            margin-left: 100px;
+
+        }
+        .homeimg{
+            width: 780px;
+            height: 730px;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+        .sppp{
+            display: flex;
+            flex-direction: column;
+        }
+        .h1{
+            color: gray;
+            margin-top: 160px;
+            font-size: 80px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .h2{
+            margin-top: 0;
+            color: gray;
+            font-size: 40px;
+            margin-left: 130px;
+            font-weight: bold;
+        }
+        .su{
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            width: 100px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            height: 50px;
+            margin-left: 250px;
+        }
+        .su:hover{
+            opacity:0.8;
+        }
+        .su:active{
+            background-color: rgb(165, 0, 0);
+        }
+        .spp{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        .container{
+            color:white;
+            display: grid;
+            grid-template-columns: auto;
+            margin-top: 120px;
+            margin-left: 530px;
+            margin-right: 500px;
+
+        }
+        .log,.sign{
+            font-size: 50px;
+            font-weight:bolder;
+            margin-left: 140px;
+        }
+        .submit{
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            width: 100px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            height: 50px;
+            margin-left: 170px;
+            margin-top: 20px;
+
+        }
+        .submit:hover{
+            opacity:0.8;
+        }
+        .submit:active{
+            background-color: rgb(165, 0, 0);
+        }
+
+        .uname,.psw,.psw-c,.email,.ph{
+            height: 10px;
+            font-size: larger;
+            color: red;
+        }
+        .text,.password{
+            height: 50px;
+            width: 450px;
+            margin-left: 0px;
+            margin-bottom: 15px;
+            margin-top: 10px;
+        }
+        .containerr{
+            color:white;
+            display: grid;
+            grid-template-columns: auto;
+            margin-top: 0px;
+            margin-left: 600px;
+            margin-right: 500px;
+
+        }
+        .clearfix{
+            margin-left: 10px;
+            width: 600px;
+        }
+        .cancel,.signup{
+            width: 150px;
+            height: 50px;
+            margin-right:50px ;
+            margin-left: 10px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .cancel:hover,.signup:hover{
+            opacity:0.8;
+        }
+        .cancel:active,.signup:active{
+            background-color: rgb(165, 0, 0);
+        }
+        .reg{
+            width: 150px;
+            height: 50px;
+            margin-right:50px ;
+            margin-left: 150px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer; 
+        }
+
+
+
+        
